@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #660027;
+}
+h2{
+    font-family: 'Roboto';
+    font-size: 24px;color: #660027;
+}
+body{
+    font-family: 'Roboto';
+    font-size: 14px;color: #7d7777;
+}
+header{
+    width: 100%;
+    margin-top: 20px;
+}
+nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+footer{
+    position: relative;
+    background-color: #660027;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+form h1{
+    text-align: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+input{width: 400px;
+    height: 42px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+}
+textarea{
+    width: 400px;
+    height: 125px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+}
+#menu{
+    display: flex;
+}
+#menu li{padding: 20px 20px;
+    list-style-type: none;
+}
+#menu li a{text-decoration: none;
+    color: black;
+}
+#banner{
+    margin: 40px 0px;
+}
+#moda p{
+    margin: 20px 0px;
+}
+#exemplos{
+    display: flex;
+    justify-content: space-between;
+}
+#contatoFieldset{
+    display: flex;
+    margin-top: 40px;
+}
+#formulario{
+    width: 780px;
+    height: 700px;
+    border: 1px solid #660027;
+    border-radius: 5px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+#formulario button{
+    width: 128px;
+    height: 42px;
+    background: #660027;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+#rodapeSumido{
+    display: none;
+}
+#rodapeHibrido{
+    background-color: #660027;
+    color: white;
+    margin-left: 20px;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+}
+#rodapeHibrido p{
+    margin: 10px 0px;
+}
+.card{
+    position: relative;
+    border: 1px solid#9E9B9B;
+    height: 410px;
+    width: 250px;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    justify-content: space-between;
+}
+.card div span{
+    padding: 20px 0px;
+}
+.card button{
+    box-sizing: border-box;
+    width: 128px;
+    height: 42px;
+    background: #FFFFFF;
+    color: #660027;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    cursor: pointer;
+}

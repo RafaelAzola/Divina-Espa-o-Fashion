@@ -1,0 +1,70 @@
+/*Tablet*/
+@media(max-width:884px){
+    nav{
+        width: 595px;
+    }
+    main{
+        width: 595px;
+        margin-top: 40px;
+    }
+    input{
+        width: 263px;
+    }
+    textarea{
+        width: 263px;
+    }
+    #banner{
+        display: none;
+    }
+    #exemplos{
+        flex-wrap: wrap;
+    }
+    #formulario{
+        width: 320px;
+        font-size: 14px;
+    }
+    #formulario button{
+        font-size: 14px;
+    }
+    #rodapeHibrido{
+        width: 256px;
+        font-size: 14px;
+    }
+    .card{
+        border-radius: 4px;
+        margin-top: 40px;
+    }
+}
+
+/*Celular*/
+@media(max-width:428px){
+    nav{
+        width: 155px;
+        flex-direction: column;
+    }
+    main{
+        margin-bottom: 40px;
+        width: 320px;
+    }
+    #menu{
+        width: 155px;
+        flex-direction: column;
+    }
+    #menu li{
+        padding: 20px 0px;
+    }
+    #moda p{
+        width: 300px;
+    }
+    #exemplos{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #rodapeHibrido{
+        display: none;
+    }
+    #rodapeSumido{
+        display: block;
+    }
+}
